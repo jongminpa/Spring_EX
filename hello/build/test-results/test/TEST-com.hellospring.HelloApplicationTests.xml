@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.hellospring.HelloApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-10-12T04:18:15" hostname="DESKTOP-RA11930" time="0.475">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.hellospring.HelloApplicationTests" time="0.475"/>
+  <system-out><![CDATA[13:18:14.561 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.hellospring.HelloApplicationTests]: HelloApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+13:18:14.620 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.hellospring.HelloApplication for test class com.hellospring.HelloApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.4)
+
+2023-10-12T13:18:14.906+09:00  INFO 17688 --- [    Test worker] com.hellospring.HelloApplicationTests    : Starting HelloApplicationTests using Java 17.0.8 with PID 17688 (started by User in C:\Users\User\eclipse-workspace\hello)
+2023-10-12T13:18:14.907+09:00  INFO 17688 --- [    Test worker] com.hellospring.HelloApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2023-10-12T13:18:15.514+09:00  INFO 17688 --- [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-10-12T13:18:15.622+09:00  INFO 17688 --- [    Test worker] com.hellospring.HelloApplicationTests    : Started HelloApplicationTests in 0.888 seconds (process running for 1.553)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
